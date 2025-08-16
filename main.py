@@ -5,7 +5,7 @@ import yaml
 
 
 def load_config():
-    with open("/Users/in46029626/Documents/Code/Python Code Starters/linkedin-bot/config.yaml", "r") as f:
+    with open("config file path.yaml", "r") as f:
         config = yaml.safe_load(f)
         print("✅ Loaded Config:", config)  # <-- Add this line
         return config
