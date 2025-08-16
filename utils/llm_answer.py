@@ -3,7 +3,7 @@ import requests
 import json
 import subprocess
 
-PERPLEXITY_API_KEY = "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"  # Replace with your actual key
+PERPLEXITY_API_KEY = "your API Key"  # Replace with your actual key
 
 def query_ollama(question_text):
     """Query local Ollama model"""
