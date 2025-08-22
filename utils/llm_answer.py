@@ -48,11 +48,11 @@ def get_llm_answer(question_text, input_type="text"):
     q = question_text.lower()
 
     if "current salary CTC" in q:
-        return "25"
+        return "15"
     if "expected salary CTC" in q:
-        return "40"    
+        return "25"    
     if "years" in q and "experience" in q:
-        return "8"
+        return "6"
     if "authorization" in q:
         return "Yes"
     if "relocate" in q:
